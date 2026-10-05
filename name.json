@@ -1,0 +1,66 @@
+{
+    "ppconfig": [
+        "PATH_OUTPUT_FILE",
+        "PATH_LOG_FILE",
+        "DEBUG_LEVEL",
+        "DEBUG_FILTER",
+        "DEBUG_FILE_APPEND"
+    ],
+
+    "ppconfig_local": [
+        "PPBDG_OUTPUT_PATH",
+        "PPBDG_LOG_PATH",
+        "DEBUG_FILE"
+    ],
+
+    "setfield": [
+        "Book Price",
+        "Calc P/Y",
+        "Calc OAS",
+        "Use History",
+        "Settlement Type",
+        "User CDU Date",
+        "CMO CDI Dir",
+        "CMO CDU Dir",
+        "WellsHpiOverrideFile",
+        "WellsUnemploymentOverrideFile",
+        "Total Smm Asset Multiplier",
+        "Refinance Smm Asset Multiplier",
+        "Turnover Smm Asset Multiplier",
+        "Curtailment Smm Asset Multiplier",
+        "Cashout Smm Asset Multiplier",
+        "Remote Dist. Dur"
+    ],
+
+    "flag": [
+        "nc",
+        "mr_nofit",
+        "mr",
+        "prc_anchor",
+        "clearcalcselections",
+        "calculate",
+        "np",
+        "cftscn",
+        "scn",
+        "scn_anchor",
+        "scnrptflds",
+        "scnrpt_file",
+        "groupby",
+        "cftflds",
+        "alm_bookincome",
+        "alm_mv_freq",
+        "alm_flag",
+        "alm",
+        "xml",
+        "scn_export",
+        "scn_rateunit",
+        "scn_curve_type",
+        "scn_horizon_date",
+        "secrule",
+        "scn_import",
+        "groupbyflds",
+        "group",
+        "template",
+        "priority"
+    ]
+}
