@@ -8,6 +8,17 @@
     "BatchCal": "PATH_1",
 
     "temporary_override": {
+        "input_file": "{output_dir}\\results\\base_calc\\base_{pricing_date}.pf",
+        "nc": true,
+        "calculate": "",
+        "clearcalcselections": false,
+        "prc_anchor": "",
+        "mr_nofit": false,
+        "mr": "",
+        "Book Price": "",
+        "Calc P/Y": "",
+        "PP_OAS_CACHE": "",
+        "PP_DISABLE_ALL_CALIB_FILE_CACHING": ""
     },
 
     "inputs": {
