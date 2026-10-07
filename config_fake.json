@@ -15,10 +15,13 @@
         "prc_anchor": "",
         "mr_nofit": false,
         "mr": "",
+        "mr_alt": "",
         "Book Price": "",
         "Calc P/Y": "",
         "PP_OAS_CACHE": "",
-        "PP_DISABLE_ALL_CALIB_FILE_CACHING": ""
+        "PP_DISABLE_ALL_CALIB_FILE_CACHING": "",
+        "groupbyflds": "",
+        "User CDU Date": []
     },
 
     "inputs": {
