@@ -1,18 +1,39 @@
 {
     "ppconfig": [
+        "KEY_1",
+        "KEY_2",
+        "KEY_15",
+        "KEY_16",
+        "KEY_3",
+        "KEY_4",
+        "KEY_17",
+        "PP_SECTOR_DIR",
+        "PP_OAS_CACHE",
+        "PP_DISABLE_ALL_CALIB_FILE_CACHING",
+        "PP_CALC_OA_SPEED_FOR_CMO",
+        "PP_REMOTE_CALC_SERVER",
+        "PP_DEFAULT_REMOTE_PROFILE",
+        "KEY_5",
+        "KEY_6",
+        "KEY_7",
+        "KEY_8",
+        "KEY_9",
+        "KEY_10",
+        "KEY_11",
+        "KEY_12",
+        "KEY_18",
+        "KEY_19",
         "PATH_OUTPUT_FILE",
         "PATH_LOG_FILE",
         "DEBUG_LEVEL",
         "DEBUG_FILTER",
         "DEBUG_FILE_APPEND"
     ],
-
     "ppconfig_local": [
-        "PPBDG_OUTPUT_PATH",
-        "PPBDG_LOG_PATH",
+        "KEY_13",
+        "KEY_14",
         "DEBUG_FILE"
     ],
-
     "setfield": [
         "Book Price",
         "Calc P/Y",
@@ -22,8 +43,8 @@
         "User CDU Date",
         "CMO CDI Dir",
         "CMO CDU Dir",
-        "WellsHpiOverrideFile",
-        "WellsUnemploymentOverrideFile",
+        "FIELD_1",
+        "FIELD_2",
         "Total Smm Asset Multiplier",
         "Refinance Smm Asset Multiplier",
         "Turnover Smm Asset Multiplier",
@@ -31,7 +52,6 @@
         "Cashout Smm Asset Multiplier",
         "Remote Dist. Dur"
     ],
-
     "flag": [
         "nc",
         "mr_nofit",

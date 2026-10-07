@@ -26,7 +26,7 @@ def make_cmd_file(settings):
     cmds["calc"] = build_cmd(scen)
     csv_file = os.path.splitext(scen["output_file"])[0] + "_cft*.csv"
     if not scen.get("cftscn", False):
-        pf_to_csv = pf_to_csv_settings(scen)
+        pf_to_csv = pf_to_csv_settings(settings)
         cmds["pf_to_csv"] = build_cmd(pf_to_csv)
         csv_file = pf_to_csv["output_file"]
     os.makedirs(os.path.dirname(scen["output_file"]), exist_ok=True)
@@ -43,6 +43,8 @@ def scen_settings(settings):
     scen = dict(settings)
     scen.update(settings["scenario"])
     scen["calculate"] = settings["calculate"] + " " + settings["scenario"]["calculate"]
+    if "scn" in scen:
+        scen["template"] = ""
     return scen
 
 

@@ -138,6 +138,17 @@
             }
         },
 
+        "oas_shock": {
+            "calculate": "/oas",
+            "output_file": "{output_dir}\\results\\oas_shock_calc\\oas_shock_{pricing_date}.pf",
+            "scenario": {
+                "scn": ".\\config\\scn\\oas_shock.scn",
+                "scn_anchor": "OAS Constant",
+                "scnrptflds": ".\\config\\scn_fields.txt",
+                "calculate": "/scnoad /scnoaspd /scnmd"
+            }
+        },
+
         "bookincome": {
             "calculate": "/oas",
             "output_file": "{output_dir}\\results\\bookincome_calc\\base_{pricing_date}.pf",
